@@ -1,0 +1,87 @@
+# גרו אפ-יועצי משכנתאות ופיננסים — Generative Engine Optimization Map
+
+> A professional mortgage consulting firm seeking an image-building website that conveys trust, expertise, and reliability. The site is designed to position the consultant as a credible authority in the mortgage advisory space, helping clients navigate the complex world of home loans and financing.
+
+---
+
+## Pages
+
+### בית
+https://-40e0fd15.zappy5.app
+מחפשים משכנתא למגזר הערבי או مشكنتا בתנאים משתלמים? צוות גרו אפ מלווה אתכם בכל שלב – מייעוץ ראשוני ועד חתימה על החוזה. השאירו פרטים לשיחת ייעוץ חינם עוד היום!
+
+### שירותים
+https://-40e0fd15.zappy5.app/services
+מיחזור משכנתא, איחוד הלוואות, قرض رهن عقاري או הלוואה בשעבוד רכב – אנחנו פותחים לכם דלת להטבות אמיתיות. גלו את השירותים המקצועיים שלנו שיחסכו לכם אלפי שקלים בשנה.
+
+### אודות
+https://-40e0fd15.zappy5.app/about
+מאחורי כל משכנתא למגזר הערבי עומד צוות מקצועי שמכיר את השטח. הכירו את גרו אפ – יועצים עם ניסיון עשיר, יושרה בלתי מתפשרת ומחויבות אמיתית להצלחה הפיננסית שלכם.
+
+### צור קשר
+https://-40e0fd15.zappy5.app/contact
+רוצים مشكنتا משתלמת או ייעוץ למיחזור משכנתא? צרו קשר עם גרו אפ עוד היום והתחילו לתכנן את העתיד הפיננסי שלכם בביטחון. לחצו כאן לשיחת הכוונה ראשונית ללא התחייבות!
+
+### תודה שפניתם אלינו
+https://-40e0fd15.zappy5.app/thank-you
+גרו אפ-יועצי משכנתאות ופיננסים - תודה שפניתם אלינו
+
+## Legal & Policy
+
+### Privacy Policy
+https://-40e0fd15.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://-40e0fd15.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://-40e0fd15.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://-40e0fd15.zappy5.app/contact
+- Endpoint: https://-40e0fd15.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text)
+  - `email` (email)
+  - `phone` (tel)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About גרו אפ-יועצי משכנתאות ופיננסים
+A professional mortgage consulting firm seeking an image-building website that conveys trust, expertise, and reliability. The site is designed to position the consultant as a credible authority in the mortgage advisory space, helping clients navigate the complex world of home loans and financing.
+
+## Services/Products
+- ייעוץ משכנתאות
+
+## Target Audience
+- קונים דירות בפעם הראשונה
+- משקיעי נדל"ן
+- משפחות במצוקה כלכלית
+- ממחזרי משכנתא
+- מאחדי הלוואות
+
+## Industry
+Mortgage Consulting
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://-40e0fd15.zappy5.app/sitemap.xml
+- Robots: https://-40e0fd15.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://-40e0fd15.zappy5.app/llms-full.txt
