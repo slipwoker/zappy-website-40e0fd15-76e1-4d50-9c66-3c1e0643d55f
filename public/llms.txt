@@ -7,37 +7,37 @@
 ## Pages
 
 ### בית
-https://-40e0fd15.zappy5.app
+https://example.com
 מחפשים משכנתא למגזר הערבי או مشكنتا בתנאים משתלמים? צוות גרו אפ מלווה אתכם בכל שלב – מייעוץ ראשוני ועד חתימה על החוזה. השאירו פרטים לשיחת ייעוץ חינם עוד היום!
 
 ### שירותים
-https://-40e0fd15.zappy5.app/services
+https://example.com/services
 מיחזור משכנתא, איחוד הלוואות, قرض رهن عقاري או הלוואה בשעבוד רכב – אנחנו פותחים לכם דלת להטבות אמיתיות. גלו את השירותים המקצועיים שלנו שיחסכו לכם אלפי שקלים בשנה.
 
 ### אודות
-https://-40e0fd15.zappy5.app/about
+https://example.com/about
 מאחורי כל משכנתא למגזר הערבי עומד צוות מקצועי שמכיר את השטח. הכירו את גרו אפ – יועצים עם ניסיון עשיר, יושרה בלתי מתפשרת ומחויבות אמיתית להצלחה הפיננסית שלכם.
 
 ### צור קשר
-https://-40e0fd15.zappy5.app/contact
+https://example.com/contact
 רוצים مشكنتا משתלמת או ייעוץ למיחזור משכנתא? צרו קשר עם גרו אפ עוד היום והתחילו לתכנן את העתיד הפיננסי שלכם בביטחון. לחצו כאן לשיחת הכוונה ראשונית ללא התחייבות!
 
 ### תודה שפניתם אלינו
-https://-40e0fd15.zappy5.app/thank-you
+https://example.com/thank-you
 גרו אפ-יועצי משכנתאות ופיננסים - תודה שפניתם אלינו
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://-40e0fd15.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://-40e0fd15.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://-40e0fd15.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -47,8 +47,8 @@ Information about WCAG compliance and accessibility features.
 - (No contact details configured yet.)
 
 ### Contact form
-- URL: https://-40e0fd15.zappy5.app/contact
-- Endpoint: https://-40e0fd15.zappy5.app/api/email/contact-form
+- URL: https://example.com/contact
+- Endpoint: https://example.com/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -82,6 +82,6 @@ Mortgage Consulting
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://-40e0fd15.zappy5.app/sitemap.xml
-- Robots: https://-40e0fd15.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://-40e0fd15.zappy5.app/llms-full.txt
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
