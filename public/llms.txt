@@ -47,7 +47,7 @@ Information about WCAG compliance and accessibility features.
 - Email: info@growup-mortgage.co.il
 - Phone: 072-3457599
 - Phone (tel): tel:0723457599
-- Address: מחמוד דרויש,בניין אלקינא,קומה 3, טייבה, 4040000
+- Address: מחמוד דרויש,בניין אלקינא, טייבה, 4040000
 
 ### Contact form
 - URL: https://example.com/contact
