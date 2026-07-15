@@ -6569,6 +6569,10 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 .site-footer .footer-legal .separator {
   color: rgba(255, 255, 255, 0.85) !important;
 }
+
+.site-footer img.logo {
+  filter: brightness(0) invert(1);
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
@@ -7566,6 +7570,7 @@ html[dir="ltr"] .service-detail.service-reverse .service-detail-content { order:
 .navbar .logo,
 .nav-brand .logo,
 .logo-link .logo {
+  filter: none !important;
   margin: 0 !important;
 }
 
