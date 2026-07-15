@@ -1682,8 +1682,8 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
   </div>
   <div class="trust-divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,80 L0,35 Q50,28 100,38 T200,32 Q250,40 300,30 T400,38 Q450,30 500,40 T600,32 Q650,40 700,30 T800,38 Q850,28 900,40 T1000,32 Q1050,42 1100,30 T1200,38 L1200,80 Z" fill="#FFFFFF"></path>
-      <path d="M0,80 L0,45 Q60,38 120,48 T240,42 Q300,50 360,40 T480,48 Q540,40 600,50 T720,42 Q780,50 840,40 T960,48 Q1020,38 1080,48 T1200,42 L1200,80 Z" fill="#FFFFFF" opacity="0.7"></path>
+      <path d="M0,80 L0,35 Q50,28 100,38 T200,32 Q250,40 300,30 T400,38 Q450,30 500,40 T600,32 Q650,40 700,30 T800,38 Q850,28 900,40 T1000,32 Q1050,42 1100,30 T1200,38 L1200,80 Z" fill="#F5F0E8"></path>
+      <path d="M0,80 L0,45 Q60,38 120,48 T240,42 Q300,50 360,40 T480,48 Q540,40 600,50 T720,42 Q780,50 840,40 T960,48 Q1020,38 1080,48 T1200,42 L1200,80 Z" fill="#F5F0E8" opacity="0.7"></path>
     </svg>
   </div>
 </section>
@@ -1868,73 +1868,63 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
   </div>
 </section>
 
-<section class="partners-section" aria-labelledby="partners-heading">
+<section class="partners-section" aria-labelledby="partners-heading" id="partners-section">
   <div class="partners-container">
     <div class="partners-header">
       <h2 id="partners-heading" class="partners-title">אנחנו עובדים עם כל הבנקים בישראל</h2>
       <p class="partners-subtitle">צוות גרו אפ משתף פעולה עם כל הגופים הפיננסיים המובילים – כך שאתם תמיד מקבלים את ההצעה המשתלמת ביותר</p>
     </div>
-    <div class="partners-grid" role="list" aria-label="רשימת שותפים פיננסיים">
-      <div class="partner-card" role="listitem">
+    <div class="partners-grid" role="list" aria-label="רשימת שותפים פיננסיים" style="display: grid; --zappy-grid-cols: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));" data-zappy-explicit-columns="true">
+      <div class="partner-card" role="listitem" data-grid-item-index="0">
         <div class="partner-icon-wrapper">
           <img data-placeholder="partner-bank-hapoalim" data-context="בנק הפועלים logo placeholder - deep red corporate identity on white background" src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27120%27 height=%2780%27%3E%3Cdefs%3E%3ClinearGradient id=%27grad%27 x1=%270%25%27 y1=%270%25%27 x2=%27100%25%27 y2=%27100%25%27%3E%3Cstop offset=%270%25%27 style=%27stop-color:%23FF0083;stop-opacity:1%27 /%3E%3Cstop offset=%27100%25%27 style=%27stop-color:%23FF008320;stop-opacity:1%27 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27url(%23grad)%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 font-family=%27Arial, sans-serif%27 font-size=%2712%27 fill=%27white%27 text-anchor=%27middle%27 dy=%27.3em%27%3Eבנק הפועלים%3C/text%3E%3C/svg%3E" alt="בנק הפועלים" class="partner-logo" loading="lazy" decoding="async">
         </div>
-        <span class="partner-name">בנק הפועלים</span>
-      </div>
-      <div class="partner-card" role="listitem">
+        <p class="zappy-editable"><span class="partner-name">בנק הפועלים</span>
+      </p></div>
+      <div class="partner-card" role="listitem" data-grid-item-index="1">
         <div class="partner-icon-wrapper">
           <img data-placeholder="partner-bank-leumi" data-context="בנק לאומי logo placeholder - deep blue corporate identity on white background" src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27120%27 height=%2780%27%3E%3Cdefs%3E%3ClinearGradient id=%27grad%27 x1=%270%25%27 y1=%270%25%27 x2=%27100%25%27 y2=%27100%25%27%3E%3Cstop offset=%270%25%27 style=%27stop-color:%23FF0083;stop-opacity:1%27 /%3E%3Cstop offset=%27100%25%27 style=%27stop-color:%23FF008320;stop-opacity:1%27 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27url(%23grad)%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 font-family=%27Arial, sans-serif%27 font-size=%2712%27 fill=%27white%27 text-anchor=%27middle%27 dy=%27.3em%27%3Eבנק לאומי%3C/text%3E%3C/svg%3E" alt="בנק לאומי" class="partner-logo" loading="lazy" decoding="async">
         </div>
-        <span class="partner-name">בנק לאומי</span>
-      </div>
-      <div class="partner-card" role="listitem">
+        <p class="zappy-editable"><span class="partner-name">בנק לאומי</span>
+      </p></div>
+      <div class="partner-card" role="listitem" data-grid-item-index="2">
         <div class="partner-icon-wrapper">
           <img data-placeholder="partner-bank-mizrahi" data-context="בנק מזרחי-טפחות logo placeholder - orange and blue corporate identity on white background" src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27120%27 height=%2780%27%3E%3Cdefs%3E%3ClinearGradient id=%27grad%27 x1=%270%25%27 y1=%270%25%27 x2=%27100%25%27 y2=%27100%25%27%3E%3Cstop offset=%270%25%27 style=%27stop-color:%23FF0083;stop-opacity:1%27 /%3E%3Cstop offset=%27100%25%27 style=%27stop-color:%23FF008320;stop-opacity:1%27 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27url(%23grad)%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 font-family=%27Arial, sans-serif%27 font-size=%2712%27 fill=%27white%27 text-anchor=%27middle%27 dy=%27.3em%27%3Eמזרחי-טפחות%3C/text%3E%3C/svg%3E" alt="בנק מזרחי-טפחות" class="partner-logo" loading="lazy" decoding="async">
         </div>
-        <span class="partner-name">בנק מזרחי-טפחות</span>
-      </div>
-      <div class="partner-card" role="listitem">
+        <p class="zappy-editable"><span class="partner-name">בנק מזרחי-טפחות</span>
+      </p></div>
+      <div class="partner-card" role="listitem" data-grid-item-index="3">
         <div class="partner-icon-wrapper">
           <img data-placeholder="partner-bank-discount" data-context="בנק דיסקונט logo placeholder - green corporate identity on white background" src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27120%27 height=%2780%27%3E%3Cdefs%3E%3ClinearGradient id=%27grad%27 x1=%270%25%27 y1=%270%25%27 x2=%27100%25%27 y2=%27100%25%27%3E%3Cstop offset=%270%25%27 style=%27stop-color:%23FF0083;stop-opacity:1%27 /%3E%3Cstop offset=%27100%25%27 style=%27stop-color:%23FF008320;stop-opacity:1%27 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27url(%23grad)%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 font-family=%27Arial, sans-serif%27 font-size=%2712%27 fill=%27white%27 text-anchor=%27middle%27 dy=%27.3em%27%3Eבנק דיסקונט%3C/text%3E%3C/svg%3E" alt="בנק דיסקונט" class="partner-logo" loading="lazy" decoding="async">
         </div>
-        <span class="partner-name">בנק דיסקונט</span>
-      </div>
-      <div class="partner-card" role="listitem">
+        <p class="zappy-editable"><span class="partner-name">בנק דיסקונט</span>
+      </p></div>
+      <div class="partner-card" role="listitem" data-grid-item-index="4">
         <div class="partner-icon-wrapper">
           <img data-placeholder="partner-bank-fibi" data-context="הבנק הבינלאומי logo placeholder - blue and white corporate identity on white background" src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27120%27 height=%2780%27%3E%3Cdefs%3E%3ClinearGradient id=%27grad%27 x1=%270%25%27 y1=%270%25%27 x2=%27100%25%27 y2=%27100%25%27%3E%3Cstop offset=%270%25%27 style=%27stop-color:%23FF0083;stop-opacity:1%27 /%3E%3Cstop offset=%27100%25%27 style=%27stop-color:%23FF008320;stop-opacity:1%27 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27url(%23grad)%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 font-family=%27Arial, sans-serif%27 font-size=%2712%27 fill=%27white%27 text-anchor=%27middle%27 dy=%27.3em%27%3Eהבינלאומי%3C/text%3E%3C/svg%3E" alt="הבנק הבינלאומי" class="partner-logo" loading="lazy" decoding="async">
         </div>
-        <span class="partner-name">הבנק הבינלאומי</span>
-      </div>
-      <div class="partner-card" role="listitem">
+        <p class="zappy-editable"><span class="partner-name">הבנק הבינלאומי</span>
+      </p></div>
+      <div class="partner-card" role="listitem" data-grid-item-index="5">
         <div class="partner-icon-wrapper">
           <img data-placeholder="partner-bank-mercantile" data-context="בנק מרכנתיל logo placeholder - dark blue corporate identity on white background" src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27120%27 height=%2780%27%3E%3Cdefs%3E%3ClinearGradient id=%27grad%27 x1=%270%25%27 y1=%270%25%27 x2=%27100%25%27 y2=%27100%25%27%3E%3Cstop offset=%270%25%27 style=%27stop-color:%23FF0083;stop-opacity:1%27 /%3E%3Cstop offset=%27100%25%27 style=%27stop-color:%23FF008320;stop-opacity:1%27 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27url(%23grad)%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 font-family=%27Arial, sans-serif%27 font-size=%2712%27 fill=%27white%27 text-anchor=%27middle%27 dy=%27.3em%27%3Eמרכנתיל%3C/text%3E%3C/svg%3E" alt="בנק מרכנתיל" class="partner-logo" loading="lazy" decoding="async">
         </div>
-        <span class="partner-name">בנק מרכנתיל</span>
-      </div>
-      <div class="partner-card" role="listitem">
+        <p class="zappy-editable"><span class="partner-name">בנק מרכנתיל</span>
+      </p></div>
+      <div class="partner-card" role="listitem" data-grid-item-index="6">
         <div class="partner-icon-wrapper">
           <img data-placeholder="partner-bank-yahav" data-context="בנק יהב logo placeholder - blue and yellow corporate identity on white background" src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27120%27 height=%2780%27%3E%3Cdefs%3E%3ClinearGradient id=%27grad%27 x1=%270%25%27 y1=%270%25%27 x2=%27100%25%27 y2=%27100%25%27%3E%3Cstop offset=%270%25%27 style=%27stop-color:%23FF0083;stop-opacity:1%27 /%3E%3Cstop offset=%27100%25%27 style=%27stop-color:%23FF008320;stop-opacity:1%27 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27url(%23grad)%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 font-family=%27Arial, sans-serif%27 font-size=%2712%27 fill=%27white%27 text-anchor=%27middle%27 dy=%27.3em%27%3Eבנק יהב%3C/text%3E%3C/svg%3E" alt="בנק יהב" class="partner-logo" loading="lazy" decoding="async">
         </div>
-        <span class="partner-name">בנק יהב</span>
-      </div>
-      <div class="partner-card" role="listitem">
-        <div class="partner-icon-wrapper">
-          <img data-placeholder="partner-bank-otsar" data-context="בנק אוצר החייל logo placeholder - green and white corporate identity on white background" src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27120%27 height=%2780%27%3E%3Cdefs%3E%3ClinearGradient id=%27grad%27 x1=%270%25%27 y1=%270%25%27 x2=%27100%25%27 y2=%27100%25%27%3E%3Cstop offset=%270%25%27 style=%27stop-color:%23FF0083;stop-opacity:1%27 /%3E%3Cstop offset=%27100%25%27 style=%27stop-color:%23FF008320;stop-opacity:1%27 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27url(%23grad)%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 font-family=%27Arial, sans-serif%27 font-size=%2712%27 fill=%27white%27 text-anchor=%27middle%27 dy=%27.3em%27%3Eאוצר החייל%3C/text%3E%3C/svg%3E" alt="בנק אוצר החייל" class="partner-logo" loading="lazy" decoding="async">
-        </div>
-        <span class="partner-name">בנק אוצר החייל</span>
-      </div>
-      <div class="partner-card" role="listitem">
-        <div class="partner-icon-wrapper">
-          <img data-placeholder="partner-bank-igud" data-context="בנק אגוד logo placeholder - red and white corporate identity on white background" src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27120%27 height=%2780%27%3E%3Cdefs%3E%3ClinearGradient id=%27grad%27 x1=%270%25%27 y1=%270%25%27 x2=%27100%25%27 y2=%27100%25%27%3E%3Cstop offset=%270%25%27 style=%27stop-color:%23FF0083;stop-opacity:1%27 /%3E%3Cstop offset=%27100%25%27 style=%27stop-color:%23FF008320;stop-opacity:1%27 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27url(%23grad)%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 font-family=%27Arial, sans-serif%27 font-size=%2712%27 fill=%27white%27 text-anchor=%27middle%27 dy=%27.3em%27%3Eבנק אגוד%3C/text%3E%3C/svg%3E" alt="בנק אגוד" class="partner-logo" loading="lazy" decoding="async">
-        </div>
-        <span class="partner-name">בנק אגוד</span>
-      </div>
-      <div class="partner-card" role="listitem">
+        <p class="zappy-editable"><span class="partner-name">בנק יהב</span>
+      </p></div>
+      
+      
+      <div class="partner-card" role="listitem" data-grid-item-index="7">
         <div class="partner-icon-wrapper">
           <img data-placeholder="partner-mimun-yashir" data-context="מימון ישיר logo placeholder - blue corporate identity on white background" src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27120%27 height=%2780%27%3E%3Cdefs%3E%3ClinearGradient id=%27grad%27 x1=%270%25%27 y1=%270%25%27 x2=%27100%25%27 y2=%27100%25%27%3E%3Cstop offset=%270%25%27 style=%27stop-color:%23FF0083;stop-opacity:1%27 /%3E%3Cstop offset=%27100%25%27 style=%27stop-color:%23FF008320;stop-opacity:1%27 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27url(%23grad)%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 font-family=%27Arial, sans-serif%27 font-size=%2712%27 fill=%27white%27 text-anchor=%27middle%27 dy=%27.3em%27%3Eמימון ישיר%3C/text%3E%3C/svg%3E" alt="מימון ישיר" class="partner-logo" loading="lazy" decoding="async">
         </div>
-        <span class="partner-name">מימון ישיר</span>
-      </div>
+        <p class="zappy-editable"><span class="partner-name">מימון ישיר</span>
+      </p></div>
     </div>
   </div>
 </section>
