@@ -6518,6 +6518,57 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 .index-consultation-cta-section .index-consultation-cta-section__cta {
   color: var(--background-color, var(--background, var(--bg-light, #FFFFFF))) !important;
 }
+
+.site-footer .zappy-business-placeholder,
+.site-footer .zappy-placeholder-link {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.site-footer .footer-copyright,
+.site-footer .footer-legal a,
+.site-footer .zappy-attribution {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.site-footer .contact-list a {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.site-footer .contact-list li {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.site-footer .contact-list span {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.site-footer .footer-legal a {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.site-footer .copyright p {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.site-footer .footer-description {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.site-footer .footer-bottom a {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.site-footer .footer-bottom p {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.site-footer .footer-bottom span:not(.separator) {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.site-footer .footer-legal .separator {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
