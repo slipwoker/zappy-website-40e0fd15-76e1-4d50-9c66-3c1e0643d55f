@@ -6514,6 +6514,10 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 .nav-cta-btn { color: #FFFFFF !important; }
 /* === BUTTON TEXT OVERRIDES END === */
 
+
+.index-consultation-cta-section .index-consultation-cta-section__cta {
+  color: var(--background-color, var(--background, var(--bg-light, #FFFFFF))) !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
